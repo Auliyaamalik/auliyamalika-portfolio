@@ -11,17 +11,17 @@ export default function CvModal() {
       <div className="in">
         <h3>Curriculum Vitae</h3>
         <p>Auliya Malika Idi · Sistem Informasi ITS · IPK 3.76</p>
-        <h4>Ringkasan</h4>
+        <h4>Summary</h4>
         <ul>
-          <li>Enterprise Architecture, Pelindo (Jul 2026 – sekarang)</li>
-          <li>Information Management &amp; Data Analytics, PHR Regional 1 (Jan – Feb 2026)</li>
+          <li>Enterprise Architecture at Pelindo (Jul 2026 – Present)</li>
+          <li>Information Management &amp; Data Analytics at PHR Regional 1 (Jan – Feb 2026)</li>
           <li>Teaching Assistant Database Analysis (Sep – Des 2025)</li>
-          <li>Head of External Affairs, HMSI ITS (Mar 2026 – sekarang)</li>
+          <li>Head of External Affairs, HMSI ITS (Mar 2026 – Present)</li>
           <li>Juara 1 UI/UX Rafatech 2024 · Bakti BCA 2025 · SAP S/4HANA (2024)</li>
         </ul>
         <div className="actions">
-          <a className="btn main" href={PDF} target="_blank" rel="noopener">Buka PDF</a>
-          <a className="btn" href={PDF} download>Unduh PDF</a>
+          <a className="btn main" href={PDF} target="_blank" rel="noopener">View PDF</a>
+          <a className="btn" href={PDF} download>Download CV</a>
         </div>
       </div>
     </Modal>

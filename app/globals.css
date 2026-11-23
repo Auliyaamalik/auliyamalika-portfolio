@@ -131,3 +131,9 @@ footer{padding:0 0 40px;text-align:center;font-size:.85rem;color:var(--mute)}
 .intro .w span{display:inline-block}
 .intro .ft{position:absolute;left:clamp(20px,4vw,48px);right:clamp(20px,4vw,48px);bottom:34px;display:flex;justify-content:space-between;font-size:.85rem;color:var(--mute);font-variant-numeric:tabular-nums}
 .intro .bar{position:absolute;left:0;bottom:0;height:2px;background:linear-gradient(90deg,var(--rose),var(--cream))}
+
+/* bullet di Experience */
+.job ul{padding:0}
+.job ul>div{overflow:hidden;padding-left:1.2em}
+.job li{list-style:disc;margin-bottom:.45em;padding-left:.2em}
+.job li::marker,.sheet li::marker{color:var(--rose)}

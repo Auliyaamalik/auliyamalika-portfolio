@@ -66,9 +66,9 @@ export default function Projects() {
           <h3>{sel.title}</h3>
           <p style={{ marginBottom: 0 }}>{sel.subtitle}</p>
           <div className="kw">{sel.keywords.map((k) => <span key={k}>{k}</span>)}</div>
-          <h4>Summary</h4><p>{sel.summary}</p>
-          <h4>Yang saya kerjakan</h4><ul>{sel.points.map((x) => <li key={x}>{x}</li>)}</ul>
-          <div className="actions"><a className="btn main" href={sel.link} target="_blank" rel="noopener">Buka deliverables</a></div>
+          <h4>Overview</h4><p>{sel.summary}</p>
+          <h4>What I Worked On</h4><ul>{sel.points.map((x) => <li key={x}>{x}</li>)}</ul>
+          <div className="actions"><a className="btn main" href={sel.link} target="_blank" rel="noopener">View Project</a></div>
         </div>
       </Modal>
     </>

@@ -1,4 +1,7 @@
-"use client";
 export default function CvButton({ children, className }: { children: React.ReactNode; className?: string }) {
-  return <button className={className} onClick={() => window.dispatchEvent(new Event("open-cv"))}>{children}</button>;
+  return (
+    <a className={className} href="/CV_-_AULIYA_MALIKA_IDI.pdf" target="_blank" rel="noopener noreferrer">
+      {children}
+    </a>
+  );
 }

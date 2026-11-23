@@ -81,7 +81,12 @@ export default function Page() {
             <div>
               <h2>Let's Connect!</h2>
               <p>I'm open to internship opportunities, projects, and collaborations. Feel free to reach out!</p>
-              <CvButton className="btn main">View My CV</CvButton>
+              <div className="actions">
+                <CvButton className="btn main">View My CV</CvButton>
+                <a className="btn" href="mailto:aulyamalidi@gmail.com?subject=Hello%20Auliya&body=Hi%20Auliya%2C%0A%0A">
+                  Send Me an Email
+                </a>
+              </div>
             </div>
             <div className="links">
               <a href="mailto:aulyamalidi@gmail.com"><b>Email</b><span>aulyamalidi@gmail.com</span></a>

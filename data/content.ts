@@ -164,14 +164,14 @@ export const jobs: Job[] = [
     "Developed a Power BI dashboard to monitor 25+ software applications used by 180+ users.",
     "Transformed and modeled operational data using Power Query to improve data consistency and reporting.",
     "Built interactive visualizations to support software utilization and licensing analysis."] },
-  { title: "Database Analysis Teaching Assistant", org: "Information Systems ITS", date: "Sep – Des 2025", points: [
+  { title: "Database Analysis Teaching Assistant", org: "Information Systems ITS", date: "Sep – Dec 2025", points: [
     "Facilitated practical sessions on database analysis and PL/pgSQL programming.",
     "Guided students in implementing database functions, triggers, procedures, and transactions."] },
 ];
 
 export const stack: [string, string[]][] = [
-  ["Data & analitik", ["Python", "SQL", "PL/pgSQL", "Power BI", "Power Query", "Data modeling"]],
-  ["Data warehouse", ["Star schema", "ETL", "Source-to-target mapping", "Metadata"]],
-  ["Cloud & infrastruktur", ["GCP", "OCI", "Alibaba Cloud", "Kubernetes", "kubectl", "Git"]],
-  ["Bisnis & enterprise", ["Business process analysis", "IT Balanced Scorecard", "SRS", "SAP S/4HANA"]],
+  ["Data & analytics", ["Python", "SQL", "Power BI", "Power Query", "Data modeling", "Data visualization"]],
+  ["Data warehouse", ["Star schema", "ETL", "Source-to-target mapping"]],
+  ["Cloud & infrastructure", ["Google Cloud Platform", "Oracle Cloud Infrastructure", "Alibaba Cloud", "Kubernetes", "kubectl", "Git", "GitLab CI/CD"]],
+  ["Business & enterprise", ["Business process analysis", "IT Balanced Scorecard", "SRS", "SAP S/4HANA", "IT Risk Management"]],
 ];
